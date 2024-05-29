@@ -40,7 +40,3 @@ This repository contains a set of tasks implemented using JavaScript, HTML, and 
 - `styles.css`: CSS file containing styling for the user interface.
 - `script.js`: JavaScript file containing the logic for the tasks.
 
-## Author
-[Your Name]
-
-Feel free to modify and extend the tasks as needed. Enjoy exploring decision making and recursion concepts!
