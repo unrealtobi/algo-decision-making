@@ -1,0 +1,39 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tasks</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Tasks</h1>
+    <div id="leap-year">
+        <h2>Leap Year Checker</h2>
+        <label for="year">Enter a year:</label>
+        <input type="number" id="year">
+        <button onclick="checkLeapYear()">Check Leap Year</button>
+        <p id="leap-year-result"></p>
+    </div>
+    <div id="ticket-pricing">
+        <h2>Ticket Pricing</h2>
+        <label for="age">Enter your age:</label>
+        <input type="number" id="age">
+        <button onclick="calculateTicketPrice()">Calculate Ticket Price</button>
+        <p id="ticket-price"></p>
+    </div>
+    <div id="weather-clothing">
+        <h2>Weather Clothing Adviser</h2>
+        <label for="temperature">Enter the current temperature:</label>
+        <input type="number" id="temperature">
+        <label for="rain">Is it raining? (Yes/No):</label>
+        <input type="text" id="rain">
+        <button onclick="adviseClothing()">Advise Clothing</button>
+        <p id="clothing-advice"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
